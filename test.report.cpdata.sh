@@ -15,3 +15,5 @@ do
     mv $PWD/$NEWDATE/"$f1" $PWD/$NEWDATE/"$f2"
     sed -i "s/${OLDDATE/-01-/-1-}/$NEWDATE/g" $PWD/$NEWDATE/"$f2"
 done
+ 
+echo hello
